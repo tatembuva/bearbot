@@ -30,6 +30,10 @@
     "binance-api-node": "^0.10.8",
     "chalk": "^4.1.0",
     "dotenv": "^8.2.0",
+    "pg": "^8.4.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0",
     "telegraf": "^3.38.0"
   },
   "devDependencies": {
