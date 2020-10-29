@@ -1,0 +1,38 @@
+{
+  "name": "bearbot",
+  "version": "0.0.1",
+  "description": "Binance Cryptocurrency Trading Bot, Telegram & Restful API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatembuva/bearbot.git"
+  },
+  "keywords": [
+    "crypto",
+    "cryptocurrency",
+    "trading",
+    "bot",
+    "finance",
+    "nodejs",
+    "binance",
+    "trading-bot"
+  ],
+  "author": "@tatembuva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tatembuva/bearbot/issues"
+  },
+  "homepage": "https://github.com/tatembuva/bearbot#readme",
+  "dependencies": {
+    "binance-api-node": "^0.10.8",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
